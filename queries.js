@@ -1,4 +1,4 @@
-var databaseConnection = require("./data/database_connection");
+const databaseConnection = require("./data/database_connection");
 
 module.exports = {
     getBreweries: function(){
